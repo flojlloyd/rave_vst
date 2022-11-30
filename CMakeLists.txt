@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 project(rave-vst VERSION 0.0.1)
 set (target_name ${PROJECT_NAME})
+set (CMAKE_OSX_ARCHITECTURES arm64 x86_64)
 
 ##### Compilation options
 if(NOT CMAKE_BUILD_TYPE)
